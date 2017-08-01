@@ -10,6 +10,10 @@ body {
   font-family: 'Product Sans', Arial, sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 
 header {
   position: relative;
@@ -23,7 +27,7 @@ header {
 }
 
 .nav-wrapper {
-
+  background-color: #f9f9fb;
   width: 100%;
   height: 120px;
   transition: all .3s ease;
@@ -53,7 +57,7 @@ header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -2px;
+  margin-top: -3px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -70,7 +74,6 @@ header {
   display: inline-block;
   margin-bottom: 0px;
   height: 30px;
-  padding-top: 5px;
   margin-right: 5px;
 }
 
@@ -98,7 +101,6 @@ header {
   display: block;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 10px;
   color: #888;
 }
 
@@ -211,7 +213,6 @@ section{
  }
 
  .section {
-   height: 400px;
    position: relative;
    background-color: #f9f9fb;
    overflow: hidden;
@@ -256,11 +257,11 @@ section{
    flex: 0 auto;
  }
 
- .content-intro {
+ .part-intro {
    padding-left: 50px;
 
    display: block;
-    width: 892px;
+    width: 900px;
     padding-right: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -271,6 +272,12 @@ section{
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+ }
+
+ .intro-content {
+   padding-top: 10px;
+   line-height: 30px;
+   font-weight: 500;
  }
 
 
@@ -300,7 +307,6 @@ section{
 }
 
 .scrolled {
-  font-size: 15px;
   height: 70px;
   background-color: #f9f9fb;
   border-bottom: 2px solid #e9e9e9;
