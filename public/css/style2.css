@@ -1,0 +1,8 @@
+.img-bg {
+  position: relative;
+  background-attachment: fixed;
+}
+
+#img-bg-2 {
+  background-image: url("../images/2.png");
+}
