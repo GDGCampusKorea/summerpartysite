@@ -2,9 +2,13 @@
   position: relative;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 50%; 
 }
 
 #img-bg-2 {
   background-image: url("../images/2.png");
+}
+
+#img-bg-3 {
+  background-image: url("../images/3.jpeg");
 }
