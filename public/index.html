@@ -368,7 +368,7 @@
               </div>
 
               <div class="staff-container row center-xs">
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -376,7 +376,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -384,7 +384,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -392,7 +392,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -400,7 +400,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -408,7 +408,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -416,7 +416,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -424,7 +424,7 @@
                     김길동
                   </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 text-center">
+                <div class="col-lg-4 col-sm-6 col-xs-6 text-center">
                   <div class="staff-profile">
                     <img src="http://placehold.it/200x200"  />
                   </div>
@@ -443,10 +443,23 @@
 
       <footer class="footer-wrap">
         <div class="footer-container">
-          <div class="row center-xs">
-            <div class="col-xs">
-              <a
-                class="footer-btn" href="https://www.meetup.com/GDG-Campus/" target="_blank">지금 신청하기</a>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="footer-btn-wrap center-xs">
+                <a
+                  class="footer-btn" href="https://www.meetup.com/GDG-Campus/" target="_blank">지금 신청하기</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="section-container">
+            <div class="gdg-title">
+              GDG Korea Campus
+            </div>
+            <div class="gdg-info row">
+              이 행사는 Google Developer Group Korea Campus 커뮤니티에서 주최하는 행사로 Google의 지원 없이 진행하는 행사입니다. 따라서, 행사장 다과 준비와 행사장 안내 배너 제작을 위한 참가비가 발생합니다. 참가비는 전액 행사를 준비 과정에 사용됩니다 <br/>
+              GDG Korea Campus is an independent group; our activities and the opinions expressed on this +Page should in no way be linked to Google, the corporation.
+            </br/>
             </div>
           </div>
         </div>
@@ -465,6 +478,18 @@
         };
         firebase.initializeApp(config);
       </script>
+
+      <svg version="1.1" style="height: 0px;" xmlns="http://www.w3.org/2000/svg">
+        <filter id="svgfilter">
+          <feGaussianBlur stdDeviation="8" />
+          <!-- comment out feComponentTransfer to remove the darkness -->
+          <feComponentTransfer>
+            <feFuncR type="linear" slope="0.9"/>
+            <feFuncG type="linear" slope="0.9"/>
+            <feFuncB type="linear" slope="0.9"/>
+          </feComponentTransfer>
+        </filter>
+      </svg>
 
   </body>
 </html>

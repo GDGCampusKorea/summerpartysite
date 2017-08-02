@@ -7,6 +7,11 @@
 
 #img-bg-2 {
   background-image: url("../images/3.jpeg");
+  -webkit-filter: url("#svgfilter");
+  -moz-filter: url("#svgfilter");
+  -o-filter: url("#svgfilter");
+  -ms-filter: url("#svgfilter");
+  filter: url("#svgfilter");
 }
 
 #img-bg-3 {
