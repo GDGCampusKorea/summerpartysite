@@ -279,6 +279,13 @@ section{
     font-family: 'Product Sans', Arial, sans-serif;
  }
 
+ .front-logo {
+   height: 70px;
+   margin-top: 5px;
+   padding-top: 9px;
+
+ }
+
  .intro-content {
    padding-top: 20px;
    line-height: 30px;
@@ -318,9 +325,9 @@ section{
  }
 
  .sche-title {
-   border: 1px solid black;
+   margin: 100px auto 30px;
    text-align: center;
-   font-size: 35px;
+   font-size: 45px;
  }
 
  .sche-19 {
@@ -364,6 +371,7 @@ section{
 
  .speaker img {
    width: 95%;
+   max-width: 400px;
  }
 
 
@@ -397,16 +405,16 @@ section{
  }
 
 
- .staff-container {
-   align-items: center;
-   margin-bottom: 150px;
- }
+
 
 
  .organizer {
    max-width: 450px;
    padding-left: 30px;
    padding-right: 30px;
+   margin-bottom: 30px;
+   font-family: 'Product Sans', Arial, sans-serif;
+
  }
 
  .org-profile {
@@ -420,7 +428,7 @@ section{
  }
 
  .org-name {
-   font-size: 25px;
+   font-size: 28px;
    font-weight: 600;
    margin-top: 10px
  }
@@ -431,10 +439,15 @@ section{
    font-family: 'Product Sans', Arial, sans-serif;
  }
 
+ .staff-container {
+   align-items: center;
+   margin-bottom: 150px;
+ }
+
  .staff-profile {
    display: block;
-   max-width: 100%;
-   height: auto;
+   /*max-width: 100%;
+   height: auto;*/
  }
 
  .staff-profile img {
@@ -445,7 +458,7 @@ section{
  .staff-name {
    font-weight: 500;
    line-height: 1.1;
-   font-size: 23px;
+   font-size: 25px;
    margin-top: 7px;
    margin-bottom: 35px;
  }
@@ -522,7 +535,7 @@ section{
   color: white;
   background-color: rgba(252, 28, 143, 1);
   /*box-shadow: 0 5px 20px rgba(252, 28, 143, .5);*/
-  transition: background-color, box-shadow 0.6s;
+  transition: background-color, box-shadow 0.4s;
   box-shadow: 0 0 60px 2px rgba(252, 28, 143, .5), 0.5rem 0.5rem 30px #13082d;
 }
 
@@ -562,7 +575,7 @@ section{
 }
 
 .footer-btn-wrap {
-  padding-bottom: 300px;
+  padding-bottom: 250px;
 
   position: relative;
   display: -webkit-box;
@@ -621,9 +634,16 @@ section{
 
 .gdg-info {
   font-size: 15px;
+  letter-spacing: 1px;
   font-family: 'Product Sans', Arial, sans-serif;
 }
 
+.thanks {
+  font-size: 15px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
 
 .block-quote {
   content: "";
@@ -671,6 +691,14 @@ section{
 
   .scrolled {
     height: 50px;
+  }
+
+  .footer-container {
+    height: 900px;
+  }
+
+  .staff-profile img {
+    height: 150px;
   }
 }
 

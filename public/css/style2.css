@@ -46,6 +46,7 @@
 .table-title{
   font-size: 26px;
   padding: 20px;
+  text-align: left;
 }
 
 .table-schedule tbody{
@@ -68,5 +69,5 @@
 @media only screen and ( min-width : 768px ){
   .part-schedule, .part-speakers {
     padding: 0px 100px;
-  } 
+  }
 }
