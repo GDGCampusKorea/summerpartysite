@@ -370,7 +370,8 @@ section{
  }
 
  .table-schedule td {
-   padding: 10px;
+  padding: 10px;
+  vertical-align: top;
  }
 
  .border-outline{
