@@ -454,8 +454,15 @@ section{
     font-family: 'Product Sans', Arial, sans-serif;
     padding-left: 25px;
     padding-right: 25px;
-    margin-top: 10px;
+    margin-top: 7px;
   }
+
+   .speaker-job {
+   font-size: 14px;
+   color: #777;
+   font-family: 'Product Sans', Arial, sans-serif;
+   margin-top: 3px;
+ }
 
  .part-staff {
    display: block;
