@@ -401,7 +401,8 @@ section{
  .tr-content {
    font-weight: 300;
    font-size: 15px;
-   width: 100%
+   width: 100%;
+   height: 50px;
  }
 
  .sec-15 {
