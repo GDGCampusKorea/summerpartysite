@@ -390,11 +390,13 @@ section{
 
 
  .tr-time {
+   font-weight: light;
+
  }
 
  .tr-track {
    font-size: 14px;
-   font-weight: light;
+   font-weight: bold;
    padding-bottom: 3px;
  }
 
@@ -732,13 +734,13 @@ section{
 .gdg-info {
   font-size: 15px;
   letter-spacing: 1px;
-  font-family: 'Product Sans', Arial, sans-serif;
+  /*font-family: 'Product Sans', Arial, sans-serif;*/
 }
 
 .thanks {
-  font-size: 15px;
-  font-family: 'Product Sans', Arial, sans-serif;
-  letter-spacing: 2.5px;
+  font-size: 14px;
+  /*font-family: 'Product Sans', Arial, sans-serif;*/
+  letter-spacing: 2.3px;
   font-weight: 200;
 }
 
