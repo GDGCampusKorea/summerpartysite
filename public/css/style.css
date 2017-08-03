@@ -75,14 +75,12 @@ header {
   max-width: 100%;
   display: inline-block;
   margin-bottom: 0px;
-  height: 30px;
-  margin-right: 5px;
 }
 
 #gdg-logo img {
   display: block;
-  height: 29px;
-  width: 29px;
+  height: 35px;
+  width: 35px;
   vertical-align: middle;
 }
 
@@ -775,8 +773,9 @@ section{
 
 @media only screen and (max-width: 530px) {
   /*모바일을 대응*/
-  .left-nav {
-    padding-left: 20px;
+  .nav-inner{
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
   .right-nav {
