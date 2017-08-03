@@ -393,12 +393,15 @@ section{
  }
 
  .tr-track {
-   /*font-weight: 700;*/
+   font-size: 14px;
+   font-weight: light;
+   padding-bottom: 3px;
  }
 
  .tr-content {
    font-weight: 300;
    font-size: 15px;
+   width: 100%
  }
 
  .sec-15 {
