@@ -420,7 +420,7 @@
                           <tr class="sec-45">
                             <td class="border-outline">
                               <div class="tr-track">강경완</div>
-                              <div class="tr-content">추후 공개됩니다<br /></div>
+                              <div class="tr-content">학교 다니지 마세요<br /></div>
                             </td>
                           </tr>
                           <tr class="sec-15">
@@ -648,7 +648,7 @@
                       우아한형제들
                     </div>
                     <div class="speaker-topic">
-                      Coming Soon!
+                      학교 다니지 마세요!
                       </br></br>
                     </div>
                   </div>
@@ -846,42 +846,46 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="js/jquery.easing.min.js"></script>
       <script>
+// Reactive nav-bar
+window.onscroll = function() {
+	var top =
+		document.documentElement.scrollTop ||
+		document.body.parentNode.scrollTop ||
+		document.body.scrollTop;
+	if (top < 1) {
+		$('.nav-wrapper').removeClass('scrolled');
+	} else {
+		$('.nav-wrapper').addClass('scrolled');
+	}
+};
 
-      // Reactive nav-bar
-      window.onscroll = function() {
-        var top = document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop;
-        if (top < 1) {
-          $(".nav-wrapper").removeClass("scrolled")
-        } else {
-          $(".nav-wrapper").addClass("scrolled")
-        }
-      }
+// For nav-bar scroll
+$(function() {
+	$(document).on('click', '.page-scroll', function(event) {
+		console.log('cliked');
+		var $anchor = $(this);
+		$('html, body').stop().animate(
+			{
+				scrollTop: $($anchor.attr('href')).offset().top
+			},
+			1300,
+			'easeInOutExpo'
+		);
+		event.preventDefault();
+	});
+});
 
-      // For nav-bar scroll
-      $(function() {
-        $(document).on('click', '.page-scroll', function(event) {
-          console.log("cliked");
-          var $anchor = $(this);
-          $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-          }, 1300, 'easeInOutExpo');
-          event.preventDefault();
-        });
-      });
-
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyDKreH4nNvNl0jExI2nK508FR0wvKn5ksE",
-        authDomain: "gdgsummerparty.firebaseapp.com",
-        databaseURL: "https://gdgsummerparty.firebaseio.com",
-        projectId: "gdgsummerparty",
-        storageBucket: "gdgsummerparty.appspot.com",
-        messagingSenderId: "1002399192709"
-      };
-      firebase.initializeApp(config);
-
-
-      </script>
+// Initialize Firebase
+var config = {
+	apiKey: 'AIzaSyDKreH4nNvNl0jExI2nK508FR0wvKn5ksE',
+	authDomain: 'gdgsummerparty.firebaseapp.com',
+	databaseURL: 'https://gdgsummerparty.firebaseio.com',
+	projectId: 'gdgsummerparty',
+	storageBucket: 'gdgsummerparty.appspot.com',
+	messagingSenderId: '1002399192709'
+};
+firebase.initializeApp(config);
+</script>
 
       <svg version="1.1" style="display: none;" xmlns="http://www.w3.org/2000/svg">
         <filter id="svgfilter">
